@@ -1,0 +1,341 @@
+html{
+    font-size: 62.5%;
+}
+section{
+    width: 100%;
+}
+h1,h2,h3,h4{
+    font-weight: 700;
+}
+h1{
+    font-size: 4.2rem;
+}
+
+h2{
+    font-size: 3.4rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 1.3rem;
+}
+body{
+    background-color:white;
+    font-family: sans-serif;
+}
+
+strong{
+    color: #41512B;
+    font-weight: 800;
+}
+
+.fecha{
+    font-size: 1.2rem;
+}
+.cjard{
+    font-size: 2rem;
+}
+.Noticia_extendida{
+    border: black solid 3px;
+    display: none;
+}
+
+main .New_active{
+    display: block;
+}
+
+p{
+    font-size: 1rem;
+}
+.card-principal-text{
+    font-size: 1.5rem;
+}
+
+aside .card{
+    border-radius: 0% ;
+    border: black solid 1.5px;
+}
+main .Noticia_extendida .card{
+    border: none;
+}
+
+
+aside .card-body .card-title{
+    font-size: 1.5rem;
+}
+.card-title{
+    text-transform: capitalize;
+}
+
+main .image-principal{
+    max-width: 85rem;
+}
+
+aside .card-img-top{
+    border-radius: 0%;
+}
+main{
+    width:100vw;
+}
+.navbar{
+    background-color:rgba(0, 0, 0, 0.837) ;
+    width: 100%;
+}
+
+.New-img{
+    border-radius: 0%;
+}
+
+.logo{
+    width: 12rem;
+}
+.Secciones{
+    margin-top: 15rem;
+}
+.Cimage{
+    width: 100%;
+        max-height: 68rem;
+    min-height: 55rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+    filter: brightness(80%);
+}
+.colorverde{
+    color: rgb(174, 253, 64);
+}
+footer{
+    padding: 2rem;
+    width: 100%;
+    position: absolute;
+    font-size: 2rem;
+    background-color:black;
+}
+.ocult{
+    pointer-events: none; 
+    cursor: default; 
+}
+
+.linkspage{
+    margin: 0rem 1rem 0rem 1rem;
+    text-align: center;
+    margin: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.linkspage:hover{
+    color:rgb(174, 253, 64) !important;
+}
+.Boton-barra{
+    color: rgb(174, 253, 64);
+    font-size: 3rem;
+}
+.copy{
+    font-size: 1.2rem;
+}
+
+.buscar{
+    position: relative;
+    
+}
+
+.tabla1{
+    width: 90%;
+    --bs-table-accent-bg: rgba(174, 253, 64, 0.5);
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgb(174, 253, 64, 0.2);
+    --bs-table-active-color: #212529;
+    text-align: center;
+}
+
+.tabla1 thead th{
+    color: black;
+    border-bottom: solid 0.1rem;
+    background-color: rgb(174, 253, 64);
+    
+}
+
+.tabla2{
+    width: 90%;
+    --bs-table-accent-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.2);
+    --bs-table-active-color: #212529;
+    text-align: center;
+}
+
+.tabla2 thead th{
+    color: white;
+    border-bottom: solid 0.1rem;
+    background-color: rgb(135, 196, 50);
+}
+
+.activo{
+    border-bottom: solid 0.5rem rgb(173, 245, 71);
+    color:rgb(174, 253, 64) !important;
+    pointer-events: none;
+    cursor: default;
+}
+
+.navbar-toggler{
+    margin-right: 0.6rem;
+}
+
+.nav-link .iconos:before { 
+    content: '\0000A';
+    white-space:pre;
+}
+.Redes_contenerdor a{
+	transition: 0.2s;
+	display: inline-block;
+	color: rgb(174, 253, 64);
+}
+
+.Redes_contenerdor a i{
+	font-size: 4.5rem;
+}
+.Redes_contenerdor a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 0.8rem;
+}
+.Redes_contenerdor a:hover{
+	transform: translateY(-5px) scale(1.2);
+}
+.Redes_contenerdor .Facebook:hover{
+	color: rgb(0, 0, 255)
+}
+.Redes_contenerdor .Twiter:hover{
+	color:  #55acee;
+}
+.Redes_contenerdor .Youtube:hover{
+	color: red;
+}
+
+.Redes_contenerdor .Facebook span::before{
+    content: '\0000A FACEBOOK';
+    white-space:pre;
+}
+.Redes_contenerdor .Twiter span::before{
+	content: '\0000A TWITER';
+    white-space:pre;
+}
+.Redes_contenerdor .Youtube span::before{
+	content: '\0000A YOUTUBE';
+    white-space:pre;
+}
+
+
+.fondo{
+    background-color: rgb(65, 65, 65);
+}
+
+.slider-text{
+    margin-bottom: 4rem;
+    font-weight: bold;
+}
+
+.boton{
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: solid 0.15rem black !important;
+    transition: 00.2s;
+    background-color:rgb(174, 253, 64) !important;
+    color: black !important;
+    border-radius: 1rem;
+    border: solid 0.1rem black;
+    padding: auto;
+}
+
+.boton:hover{
+    background-color:black!important;
+    color:rgb(174, 253, 64) !important;
+    border: solid 0.15rem rgb(174, 253, 64) !important;
+}
+
+.card{
+    border: solid 0.1rem black;
+    border-radius: 1rem;
+}
+
+.card-img-top{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.telefono{
+    transition: 0.2s;
+    background-color: black;
+    text-align: center;
+    padding: 0.4rem 0.72rem 0.4rem 0.72rem;
+    border-radius: 50%;
+    color:rgb(174, 253, 64) ;
+}
+.boton2{
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: solid 0.15rem white !important;
+    padding-top: 0.3rem;
+    transition: 00.2s;
+    background-color:rgb(65, 82, 43) !important;
+    color: white !important;
+    border-radius: 1rem;
+}
+.boton2:hover{
+    border: solid 0.15rem white !important;
+    background-color:rgb(115, 148, 71) !important;
+    color: white !important;
+}
+
+
+@media screen and (max-width: 767px) {
+    .Redes_contenerdor a{
+        font-size: 1rem;
+    }
+    .nav-item .linkspage{
+        text-align: start;
+        margin-left: 0.7rem;
+    }
+    .linkspage:hover{
+        background-color:transparent;
+        color: rgb(174, 253, 64) !important;
+    }
+    .buscar{
+        position: relative;
+        
+    }
+    .nav-link .iconos:before { 
+        content: '  ';
+        white-space:initial;
+    }
+    .Redes_contenerdor a i{
+        font-size: 3rem;
+    }
+}
+img.izquierda {
+    float: left;
+  }
+  
+  img.derecha {
+    float: right;
+  }
+  div.mvv {
+	text-align: justify;
+  }
+.zoom:hover {
+	transform: scale(1.08); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.zoom {
+
+	transition: transform .3s; /* Animation */
+	width: auto;
+	height: auto;
+
+  }
